@@ -117,9 +117,9 @@ export default function HeroSection() {
           }}
         >
           <p className="text-3xl font-light md:text-5xl">
-            නිපුනි
-            <span className="mx-4 text-[#c9a96e]">&</span>
             නිපුන
+            <span className="mx-4 text-[#c9a96e]">&</span>
+            නිපුනි
           </p>
           <p className="mt-5 text-xs tracking-[0.4em] text-[#c9a96e]">
             17 · 01 · 2027

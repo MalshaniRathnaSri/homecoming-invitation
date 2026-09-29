@@ -151,9 +151,9 @@ export default function WelcomeSection() {
           className="mt-12"
         >
           <p className="text-2xl font-light text-[#3b1118] md:text-4xl">
-            නිපුනි
+                නිපුන
             <span className="mx-3 text-[#c9a96e]">&</span>
-            නිපුන
+                නිපුනි
           </p>
           <p className="mt-4 text-[10px] tracking-[0.4em] text-[#8e4a55]">
             17 · 01 · 2027

@@ -57,7 +57,7 @@ export default function CoupleSection() {
           className="text-center"
         >
           <p className="text-[10px] tracking-[0.5em] text-[#c9a96e] md:text-xs">
-            නිපුනි & නිපුන
+            නිපුන & නිපුනි
           </p>
 
           <h2 className="mt-5 text-3xl font-light md:text-5xl">

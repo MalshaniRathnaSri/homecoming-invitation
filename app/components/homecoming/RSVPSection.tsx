@@ -251,7 +251,7 @@ export default function RSVPSection() {
               හමුවීමට බලාපොරොත්තු වෙමු.
             </p>
             <p className="mt-7 text-xs tracking-[0.25em] text-[#8e4a55]">
-              නිපුනි & නිපුන
+                නිපුන & නිපුනි
             </p>
           </motion.div>
         )}

@@ -111,17 +111,17 @@ export default function ParentsSection() {
             <div className="absolute bottom-2 left-2 h-5 w-5 border-b border-l border-[#c9a96e]/60" />
             <div className="absolute bottom-2 right-2 h-5 w-5 border-b border-r border-[#c9a96e]/60" />
             <p className="text-[9px] tracking-[0.4em] text-[#c9a96e] md:text-[10px]">
-              මනාලියගේ දෙමාපියන්
+              මනාලයාගේ දෙමාපියන්
             </p>
             <div className="mx-auto my-6 flex h-12 w-12 items-center justify-center rounded-full border border-[#c9a96e]/40">
               <span className="text-lg text-[#c9a96e]">♥</span>
             </div>
             <div className="space-y-2">
               <p className="text-lg font-light text-[#f5f1e8] md:text-xl">
-                රත්නපාල ප්‍රනාන්දු
+                ගම්මනගේ සුනිල්
               </p>
               <p className="text-lg font-light text-[#f5f1e8] md:text-xl">
-                ශ්‍රියානි මුණසිංහ
+                අලවත්තගේ රූපිකා
               </p>
             </div>
             <p className="mt-5 text-xs leading-relaxed text-[#bfaeb0]">
@@ -151,17 +151,17 @@ export default function ParentsSection() {
             <div className="absolute bottom-2 left-2 h-5 w-5 border-b border-l border-[#c9a96e]/60" />
             <div className="absolute bottom-2 right-2 h-5 w-5 border-b border-r border-[#c9a96e]/60" />
             <p className="text-[9px] tracking-[0.4em] text-[#c9a96e] md:text-[10px]">
-              මනාලයාගේ දෙමාපියන්
+              මනාලියගේ දෙමාපියන්
             </p>
             <div className="mx-auto my-6 flex h-12 w-12 items-center justify-center rounded-full border border-[#c9a96e]/40">
               <span className="text-lg text-[#c9a96e]">♥</span>
             </div>
             <div className="space-y-2">
               <p className="text-lg font-light text-[#f5f1e8] md:text-xl">
-                ගම්මනගේ සුනිල්
+                 රත්නපාල ප්‍රනාන්දු
               </p>
               <p className="text-lg font-light text-[#f5f1e8] md:text-xl">
-                අලවත්තගේ රූපිකා
+                 ශ්‍රියානි මුණසිංහ
               </p>
             </div>
             <p className="mt-5 text-xs leading-relaxed text-[#bfaeb0]">
