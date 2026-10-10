@@ -64,9 +64,6 @@ export default function HomecomingDetails() {
           }}
           className="text-center"
         >
-          <p className="text-[10px] tracking-[0.5em] text-[#8e4a55] md:text-xs">
-            සුන්දර හමුවීම
-          </p>
           <h2 className="mt-6 text-3xl font-light leading-relaxed text-[#3b1118] md:text-5xl">
             අපේ විශේෂ දවස
           </h2>
@@ -154,31 +151,59 @@ export default function HomecomingDetails() {
             duration: isMobile ? 0.8 : 1,
             delay: 0.75,
           }}
-          className="mt-10"
+          className="mt-10 flex flex-col items-center text-center"
         >
-          <a
+          <p className="text-sm font-light leading-relaxed text-[#3b1118] md:text-base">
+            අපේ සතුටු මොහොතට ඔබටත් පහසුවෙන් ළඟා වීමට,
+          </p>
+
+          <p className="mt-2 text-xs tracking-wide text-[#8e4a55] md:text-sm">
+            උත්සව ස්ථානයේ මඟ සොයාගැනීමට පහත බොත්තම ඔබන්න
+          </p>
+
+          <motion.a
             href="https://maps.app.goo.gl/LfFbENp7C5VauR9A7"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-block border border-[#c9a96e] px-8 py-3 text-[10px] tracking-[0.3em] text-[#5a222a] transition hover:bg-[#3b1118] hover:text-[#f5f1e8]"
+            whileHover={{ scale: 1.04 }}
+            whileTap={{ scale: 0.97 }}
+            className="group mt-6 inline-flex items-center gap-3 rounded-full border border-[#c9a96e] bg-[#3b1118] px-7 py-4 text-[#f5f1e8] shadow-lg shadow-[#3b1118]/15 transition-colors duration-300 hover:bg-[#5a222a] md:px-9"
           >
-            GOOGLE MAP
-          </a>
+            <span className="flex h-10 w-10 items-center justify-center rounded-full bg-[#c9a96e]/15 text-[#e2c58e]">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="23"
+                height="23"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="1.6"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              >
+                <path d="M20 10c0 5-8 12-8 12S4 15 4 10a8 8 0 1 1 16 0Z" />
+                <circle cx="12" cy="10" r="2.5" />
+              </svg>
+            </span>
+
+            <span className="flex flex-col items-start">
+              <span className="text-[11px] font-medium tracking-[0.2em] md:text-xs">
+                OPEN GOOGLE MAPS
+              </span>
+              <span className="mt-1 text-[10px] text-[#d9c6a0]">
+                Grand Royal · Kalutara
+              </span>
+            </span>
+
+            <span className="ml-1 text-lg text-[#c9a96e] transition-transform duration-300 group-hover:translate-x-1">
+              →
+            </span>
+          </motion.a>
+
+          <p className="mt-4 text-[10px] tracking-wide text-[#74665f]">
+            📍 ඔබගේ ගමන් මඟ පහසුවෙන් සැලසුම් කරගන්න
+          </p>
         </motion.div>
-        <motion.p
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          viewport={{ once: true }}
-          transition={{
-            duration: isMobile ? 0.8 : 1,
-            delay: 0.95,
-          }}
-          className="mt-10 text-center text-sm leading-loose text-[#74665f]"
-        >
-          අපේ සතුටේ මේ සොඳුරු දවස
-          <br />
-          ඔබගේ පැමිණීමෙන් තවත් සුන්දර වේවා...
-        </motion.p>
       </div>
       <motion.div
         initial={{ opacity: 0 }}

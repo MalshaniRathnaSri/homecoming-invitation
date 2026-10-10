@@ -67,7 +67,7 @@ export default function HeroSection() {
           }}
           className="mb-8 text-[10px] tracking-[0.5em] text-[#c9a96e] md:text-xs"
         >
-          අපේ සතුට
+          සතුටින් හා 
         </motion.p>
         <motion.div
           initial={{

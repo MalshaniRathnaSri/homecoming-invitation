@@ -136,9 +136,7 @@ export default function CountdownSection() {
             අපේ විශේෂ දවසට
           </p>
           <h2 className="mt-6 text-3xl font-light leading-relaxed md:text-5xl">
-            තවත් කොපමණ
-            <br />
-            කාලයක්ද?
+            තව දින,
           </h2>
           <div className="mx-auto mt-7 h-px w-16 bg-[#c9a96e]" />
         </motion.div>

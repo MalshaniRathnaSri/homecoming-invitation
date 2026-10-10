@@ -14,9 +14,9 @@ export default function Home() {
      <main className="overflow-hidden bg-[#3B1118] text-[#f5f1e8]">
       <HeroSection />
       <WelcomeSection />
-      <CoupleSection />
-      <CelebrationSection />
       <ParentsSection />
+      {/* <CoupleSection /> */}
+      {/* <CelebrationSection /> */}
       <HomecomingDetails />
       <CountdownSection />
       <RSVPSection />

@@ -79,20 +79,20 @@ export default function WelcomeSection() {
           }}
         >
           <p className="text-2xl font-light leading-relaxed text-[#5a222a] md:text-4xl">
-            අපේ සතුටේ
+            අපේ ජිවිතයේ තවත් 
             <br />
-            සුන්දරම දවසක්...
+            සුන්දර දවසකට....
           </p>
           <p className="mt-7 text-base leading-loose text-[#74665f] md:text-lg">
-            අපේ ජීවිතයේ
+            දෙහදක් එකම සිහිනයක් වෙලා
             <br />
-            අලුත් පරිච්ඡේදයක් ආරම්භ කරමින්
+            ආදරයෙන් ගෙවුණු දිගු ගමනකින් පසුව 
             <br />
-            අපි දෙදෙනාගේ සතුට
+            අපේ ජිවිතයේ සුන්දරම පරිච්ඡේදයක් අලුතින් ලියන්නට
             <br />
-            ඔබත් සමඟ බෙදාගන්නට
+            යන මේ මොහොතේ ඒ සතුටට ඔබගේ ආශිර්වාදයද 
             <br />
-            අපි බලාපොරොත්තු වෙමු.
+            රැගෙන්න එන්න,
           </p>
         </motion.div>
         <motion.div
@@ -137,7 +137,7 @@ export default function WelcomeSection() {
             මේ සොඳුරු සන්ධ්‍යාව
           </p>
           <p className="mt-3 text-lg font-light text-[#5a222a] md:text-2xl">
-            ඔබත් සමඟින් සමරන්නට...
+            අපත් සමඟින් සමරන්නට...
           </p>
         </motion.div>
         <motion.div
@@ -154,9 +154,6 @@ export default function WelcomeSection() {
                 නිපුන
             <span className="mx-3 text-[#c9a96e]">&</span>
                 නිපුනි
-          </p>
-          <p className="mt-4 text-[10px] tracking-[0.4em] text-[#8e4a55]">
-            17 · 01 · 2027
           </p>
         </motion.div>
       </div>

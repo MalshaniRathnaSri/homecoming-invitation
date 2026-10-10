@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
+import Image from "next/image";
 
 export default function FinalSection() {
   const [isMobile, setIsMobile] = useState(false);
@@ -73,7 +74,7 @@ export default function FinalSection() {
           }}
           className="text-[10px] tracking-[0.5em] text-[#c9a96e] md:text-xs"
         >
-          ආදරයෙන් ආරාධනා කරමු
+          අපේ දවසට
         </motion.p>
         <motion.div
           initial={{
@@ -153,7 +154,7 @@ export default function FinalSection() {
           <p className="text-3xl font-light md:text-5xl">
             නිපුන
             <span className="mx-4 text-[#c9a96e]">&</span>
-            නිපුනි 
+            නිපුනි
           </p>
           <p className="mt-5 text-[10px] tracking-[0.4em] text-[#c9a96e]">
             17 · 01 · 2027
@@ -207,8 +208,27 @@ export default function FinalSection() {
         >
           ඔබගේ ආදරය හා සුභ පැතුම්
           <br />
-          අපේ නව ගමනට ආශිර්වාදයක් වේවා.
+          අපේ නව ගමනට ආශිර්වාදයක්.
         </motion.p>
+        <motion.div
+          initial={{ opacity: 0, y: 15, scale: 0.95 }}
+          whileInView={{ opacity: 1, y: 0, scale: 1 }}
+          viewport={{ once: true }}
+          transition={{
+            duration: isMobile ? 0.8 : 1,
+            delay: 1.7,
+          }}
+          className="mt-10 flex justify-center"
+        >
+          <Image
+            src="/images/homecoming_logo.png"
+            alt="Nipuna and Nipuni Homecoming Logo"
+            width={180}
+            height={180}
+            priority={false}
+            className="h-auto w-28 object-contain sm:w-36 md:w-44"
+          />
+        </motion.div>
       </div>
       <motion.div
         initial={{ opacity: 0 }}
