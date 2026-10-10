@@ -146,13 +146,13 @@ export default function ParentsSection() {
                   ශ්‍රියානි මුණසිංහ මහත්මියගේ 
                 </p>
               </div>
-              <p className="mt-5 text-xs leading-relaxed text-[#bfaeb0]">
+              <div className="mt-5 text-xs leading-relaxed text-[#bfaeb0]">
                 ආදරණිය වැඩිමහල් දියණිය 
                 <br />
                 <p className="text-[10px] tracking-[0.5em] text-[#c9a96e] md:text-xs">
                   නිපුනි මල්ෂානි 
                 </p>
-              </p>
+              </div>
             </motion.div>
           </div>
           <h2 className="mt-6 text-3xl font-light leading-relaxed md:text-5xl">
