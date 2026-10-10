@@ -17,7 +17,7 @@ export default function FinalSection() {
   }, []);
 
   return (
-    <section className="relative flex min-h-screen items-center justify-center overflow-hidden bg-[#3B1118] px-6 py-24 text-[#f5f1e8] md:px-12">
+    <section className="relative flex min-h-screen items-center justify-center overflow-hidden bg-[#3F0306] px-6 py-24 text-[#f5f1e8] md:px-12">
       <motion.div
         className={`absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 rounded-full bg-[#c9a96e]/10 ${
           isMobile ? "h-60 w-60 blur-[70px]" : "h-96 w-96 blur-3xl"
@@ -186,7 +186,7 @@ export default function FinalSection() {
             duration: isMobile ? 0.8 : 1,
             delay: 1.3,
           }}
-          className="mt-5 text-xs tracking-[0.25em] text-[#8e4a55]"
+          className="mt-5 text-xs tracking-[0.25em] text-[#3F0306]"
         >
           GRAND ROYAL · KALUTARA
         </motion.p>

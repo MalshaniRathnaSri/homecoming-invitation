@@ -16,7 +16,7 @@ export default function HeroSection() {
   }, []);
 
   return (
-    <section className="relative flex min-h-screen items-center justify-center overflow-hidden bg-[#3B1118] px-6 text-[#f5f1e8]">
+    <section className="relative flex min-h-screen items-center justify-center overflow-hidden bg-[#3F0306] px-6 text-[#f5f1e8]">
       <motion.div
         className={`absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 rounded-full bg-[#c9a96e]/10 ${
           isMobile ? "h-64 w-64 blur-[70px]" : "h-96 w-96 blur-3xl"

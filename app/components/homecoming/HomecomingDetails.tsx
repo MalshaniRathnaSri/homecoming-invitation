@@ -17,7 +17,7 @@ export default function HomecomingDetails() {
   }, []);
 
   return (
-    <section className="relative min-h-screen overflow-hidden bg-[#f5f1e8] px-6 py-24 text-[#3b1118] md:px-12">
+    <section className="relative min-h-screen overflow-hidden bg-[#f5f1e8] px-6 py-24 text-[#3F0306] md:px-12">
       <motion.div
         className={`absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 rounded-full bg-[#c9a96e]/10 ${
           isMobile ? "h-64 w-64 blur-[70px]" : "h-96 w-96 blur-3xl"
@@ -64,7 +64,7 @@ export default function HomecomingDetails() {
           }}
           className="text-center"
         >
-          <h2 className="mt-6 text-3xl font-light leading-relaxed text-[#3b1118] md:text-5xl">
+          <h2 className="mt-6 text-3xl font-light leading-relaxed text-[#3F0306] md:text-5xl">
             අපේ විශේෂ දවස
           </h2>
           <div className="mx-auto mt-7 h-px w-16 bg-[#c9a96e]" />
@@ -91,12 +91,12 @@ export default function HomecomingDetails() {
           <div className="absolute right-2 top-2 h-5 w-5 border-r border-t border-[#c9a96e]" />
           <div className="absolute bottom-2 left-2 h-5 w-5 border-b border-l border-[#c9a96e]" />
           <div className="absolute bottom-2 right-2 h-5 w-5 border-b border-r border-[#c9a96e]" />
-          <p className="text-[10px] tracking-[0.45em] text-[#8e4a55]">ජනවාරි</p>
-          <p className="mt-3 text-7xl font-light leading-none text-[#3b1118] md:text-8xl">
+          <p className="text-[10px] tracking-[0.45em] text-[#3F0306]">ජනවාරි</p>
+          <p className="mt-3 text-7xl font-light leading-none text-[#3F0306] md:text-8xl">
             17
           </p>
           <div className="mx-auto my-5 h-px w-12 bg-[#c9a96e]" />
-          <p className="text-sm tracking-[0.35em] text-[#8e4a55]">2027</p>
+          <p className="text-sm tracking-[0.35em] text-[#3F0306]">2027</p>
           <p className="mt-5 text-sm text-[#74665f]">ඉරිදා</p>
         </motion.div>
         <div className="mt-12 grid w-full max-w-3xl gap-6 md:grid-cols-2">
@@ -111,12 +111,12 @@ export default function HomecomingDetails() {
             className="border border-[#c9a96e]/30 bg-white/20 px-6 py-8 text-center"
           >
             <div className="mx-auto flex h-12 w-12 items-center justify-center rounded-full border border-[#c9a96e]/50">
-              <span className="text-lg text-[#8e4a55]">◷</span>
+              <span className="text-lg text-[#3F0306]">◷</span>
             </div>
-            <p className="mt-5 text-[9px] tracking-[0.4em] text-[#8e4a55]">
+            <p className="mt-5 text-[9px] tracking-[0.4em] text-[#3F0306]">
               වේලාව
             </p>
-            <p className="mt-3 text-lg font-light text-[#3b1118] md:text-xl">
+            <p className="mt-3 text-lg font-light text-[#3F0306] md:text-xl">
               සවස 7.00 - රාත්‍රී 11.00
             </p>
             <p className="mt-2 text-xs text-[#74665f]">7.00 PM - 11.00 PM</p>
@@ -132,12 +132,12 @@ export default function HomecomingDetails() {
             className="border border-[#c9a96e]/30 bg-white/20 px-6 py-8 text-center"
           >
             <div className="mx-auto flex h-12 w-12 items-center justify-center rounded-full border border-[#c9a96e]/50">
-              <span className="text-lg text-[#8e4a55]">♢</span>
+              <span className="text-lg text-[#3F0306]">♢</span>
             </div>
-            <p className="mt-5 text-[9px] tracking-[0.4em] text-[#8e4a55]">
+            <p className="mt-5 text-[9px] tracking-[0.4em] text-[#3F0306]">
               ස්ථානය
             </p>
-            <p className="mt-3 text-lg font-light text-[#3b1118] md:text-xl">
+            <p className="mt-3 text-lg font-light text-[#3F0306] md:text-xl">
               Grand Royal
             </p>
             <p className="mt-2 text-sm text-[#74665f]">Kalutara</p>
@@ -153,11 +153,11 @@ export default function HomecomingDetails() {
           }}
           className="mt-10 flex flex-col items-center text-center"
         >
-          <p className="text-sm font-light leading-relaxed text-[#3b1118] md:text-base">
+          <p className="text-sm font-light leading-relaxed text-[#3F0306] md:text-base">
             අපේ සතුටු මොහොතට ඔබටත් පහසුවෙන් ළඟා වීමට,
           </p>
 
-          <p className="mt-2 text-xs tracking-wide text-[#8e4a55] md:text-sm">
+          <p className="mt-2 text-xs tracking-wide text-[#3F0306] md:text-sm">
             උත්සව ස්ථානයේ මඟ සොයාගැනීමට පහත බොත්තම ඔබන්න
           </p>
 
@@ -167,7 +167,7 @@ export default function HomecomingDetails() {
             rel="noopener noreferrer"
             whileHover={{ scale: 1.04 }}
             whileTap={{ scale: 0.97 }}
-            className="group mt-6 inline-flex items-center gap-3 rounded-full border border-[#c9a96e] bg-[#3b1118] px-7 py-4 text-[#f5f1e8] shadow-lg shadow-[#3b1118]/15 transition-colors duration-300 hover:bg-[#5a222a] md:px-9"
+            className="group mt-6 inline-flex items-center gap-3 rounded-full border border-[#c9a96e] bg-[#3F0306] px-7 py-4 text-[#f5f1e8] shadow-lg shadow-[#3F0306]/15 transition-colors duration-300 hover:bg-[#3F0306] md:px-9"
           >
             <span className="flex h-10 w-10 items-center justify-center rounded-full bg-[#c9a96e]/15 text-[#e2c58e]">
               <svg
@@ -225,7 +225,7 @@ export default function HomecomingDetails() {
             repeat: Infinity,
             ease: "easeInOut",
           }}
-          className="text-[#8e4a55]"
+          className="text-[#3F0306]"
         >
           ↓
         </motion.span>

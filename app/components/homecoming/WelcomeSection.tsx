@@ -15,7 +15,7 @@ export default function WelcomeSection() {
     return () => window.removeEventListener("resize", checkMobile);
   }, []);
   return (
-    <section className="relative min-h-screen overflow-hidden bg-[#f5f1e8] px-6 py-24 text-[#3b1118] md:px-12">
+    <section className="relative min-h-screen overflow-hidden bg-[#f5f1e8] px-6 py-24 text-[#3F0306] md:px-12">
       <motion.div
         className={`absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 rounded-full bg-[#c9a96e]/10 ${
           isMobile ? "h-56 w-56 blur-[70px]" : "h-80 w-80 blur-3xl"
@@ -60,7 +60,7 @@ export default function WelcomeSection() {
           transition={{
             duration: isMobile ? 0.7 : 0.9,
           }}
-          className="mb-8 text-[10px] tracking-[0.5em] text-[#8e4a55] md:text-xs"
+          className="mb-8 text-[10px] tracking-[0.5em] text-[#3F0306] md:text-xs"
         >
           ආදරයෙන් පිළිගනිමු
         </motion.p>
@@ -78,7 +78,7 @@ export default function WelcomeSection() {
             duration: isMobile ? 0.8 : 1,
           }}
         >
-          <p className="text-2xl font-light leading-relaxed text-[#5a222a] md:text-4xl">
+          <p className="text-2xl font-light leading-relaxed text-[#3F0306] md:text-4xl">
             අපේ ජිවිතයේ තවත් 
             <br />
             සුන්දර දවසකට....
@@ -119,7 +119,7 @@ export default function WelcomeSection() {
             duration: isMobile ? 0.8 : 1,
             delay: isMobile ? 0.45 : 0.55,
           }}
-          className="text-2xl text-[#8e4a55]"
+          className="text-2xl text-[#3F0306]"
         >
           ♥
         </motion.div>
@@ -133,10 +133,10 @@ export default function WelcomeSection() {
           }}
           className="mt-8"
         >
-          <p className="text-lg font-light text-[#5a222a] md:text-2xl">
+          <p className="text-lg font-light text-[#3F0306] md:text-2xl">
             මේ සොඳුරු සන්ධ්‍යාව
           </p>
-          <p className="mt-3 text-lg font-light text-[#5a222a] md:text-2xl">
+          <p className="mt-3 text-lg font-light text-[#3F0306] md:text-2xl">
             අපත් සමඟින් සමරන්නට...
           </p>
         </motion.div>
@@ -150,7 +150,7 @@ export default function WelcomeSection() {
           }}
           className="mt-12"
         >
-          <p className="text-2xl font-light text-[#3b1118] md:text-4xl">
+          <p className="text-2xl font-light text-[#3F0306] md:text-4xl">
                 නිපුන
             <span className="mx-3 text-[#c9a96e]">&</span>
                 නිපුනි
@@ -177,7 +177,7 @@ export default function WelcomeSection() {
             repeat: Infinity,
             ease: "easeInOut",
           }}
-          className="text-[#8e4a55]"
+          className="text-[#3F0306]"
         >
           ↓
         </motion.div>

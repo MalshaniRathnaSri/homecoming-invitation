@@ -15,9 +15,9 @@ export default function CelebrationSection() {
   }, []);
 
   return (
-    <section className="relative min-h-screen overflow-hidden bg-[#f5f1e8] px-6 py-24 text-[#3b1118] md:px-12">
+    <section className="relative min-h-screen overflow-hidden bg-[#f5f1e8] px-6 py-24 text-[#3F0306] md:px-12">
       <motion.div
-        className={`absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 rounded-full bg-[#8e4a55]/10 ${
+        className={`absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 rounded-full bg-[#3F0306]/10 ${
           isMobile ? "h-64 w-64 blur-[70px]" : "h-96 w-96 blur-3xl"
         }`}
         animate={{
@@ -60,7 +60,7 @@ export default function CelebrationSection() {
           transition={{
             duration: isMobile ? 0.7 : 0.9,
           }}
-          className="text-[10px] tracking-[0.5em] text-[#8e4a55] md:text-xs"
+          className="text-[10px] tracking-[0.5em] text-[#3F0306] md:text-xs"
         >
           සැමරුම
         </motion.p>
@@ -79,7 +79,7 @@ export default function CelebrationSection() {
             delay: 0.15,
           }}
         >
-          <h2 className="mt-6 text-3xl font-light leading-relaxed text-[#3b1118] md:text-5xl">
+          <h2 className="mt-6 text-3xl font-light leading-relaxed text-[#3F0306] md:text-5xl">
             අපේ නව ගමනේ
             <br />
             සොඳුරු සැමරුම
@@ -103,7 +103,7 @@ export default function CelebrationSection() {
           className="mt-12 flex items-center gap-5"
         >
           <span className="h-px w-12 bg-[#c9a96e]/60 md:w-20" />
-          <span className="text-2xl text-[#8e4a55]">♥</span>
+          <span className="text-2xl text-[#3F0306]">♥</span>
           <span className="h-px w-12 bg-[#c9a96e]/60 md:w-20" />
         </motion.div>
         <motion.div
@@ -122,7 +122,7 @@ export default function CelebrationSection() {
           }}
           className="mt-10 max-w-2xl"
         >
-          <p className="text-xl font-light leading-loose text-[#5a222a] md:text-3xl">
+          <p className="text-xl font-light leading-loose text-[#3F0306] md:text-3xl">
             අපේ ආදරයේ
             <br />
             සතුටත් සෙනෙහසත්
@@ -159,7 +159,7 @@ export default function CelebrationSection() {
           <div className="absolute -right-1 -top-1 h-3 w-3 border-r border-t border-[#c9a96e]" />
           <div className="absolute -bottom-1 -left-1 h-3 w-3 border-b border-l border-[#c9a96e]" />
           <div className="absolute -bottom-1 -right-1 h-3 w-3 border-b border-r border-[#c9a96e]" />
-          <p className="text-sm tracking-[0.25em] text-[#8e4a55] md:text-base">
+          <p className="text-sm tracking-[0.25em] text-[#3F0306] md:text-base">
             17 · 01 · 2027
           </p>
         </motion.div>
@@ -171,7 +171,7 @@ export default function CelebrationSection() {
             duration: isMobile ? 0.8 : 1,
             delay: 1,
           }}
-          className="mt-10 text-xs tracking-[0.25em] text-[#8e4a55] md:text-sm"
+          className="mt-10 text-xs tracking-[0.25em] text-[#3F0306] md:text-sm"
         >
           ඔබගේ ආදරය අපට සතුටකි
         </motion.p>
@@ -196,7 +196,7 @@ export default function CelebrationSection() {
             repeat: Infinity,
             ease: "easeInOut",
           }}
-          className="text-[#8e4a55]"
+          className="text-[#3F0306]"
         >
           ↓
         </motion.span>

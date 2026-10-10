@@ -11,7 +11,7 @@ import MusicPlayer from "./components/homecoming/MusicPlayer";
 
 export default function Home() {
   return (
-     <main className="overflow-hidden bg-[#3B1118] text-[#f5f1e8]">
+     <main className="overflow-hidden bg-[#3F0306] text-[#f5f1e8]">
       <HeroSection />
       <WelcomeSection />
       <ParentsSection />

@@ -20,7 +20,7 @@ export default function RSVPSection() {
     setSubmitted(true);
   };
   return (
-    <section className="relative min-h-screen overflow-hidden bg-[#f5f1e8] px-6 py-24 text-[#3b1118] md:px-12">
+    <section className="relative min-h-screen overflow-hidden bg-[#f5f1e8] px-6 py-24 text-[#3F0306] md:px-12">
       <motion.div
         className={`absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 rounded-full bg-[#c9a96e]/10 ${
           isMobile ? "h-60 w-60 blur-[70px]" : "h-96 w-96 blur-3xl"
@@ -73,10 +73,10 @@ export default function RSVPSection() {
           }}
           className="text-center"
         >
-          <p className="text-[10px] tracking-[0.5em] text-[#8e4a55] md:text-xs">
+          <p className="text-[10px] tracking-[0.5em] text-[#3F0306] md:text-xs">
             ඔබගේ පැමිණීම
           </p>
-          <h2 className="mt-6 text-3xl font-light leading-relaxed text-[#3b1118] md:text-5xl">
+          <h2 className="mt-6 text-3xl font-light leading-relaxed text-[#3F0306] md:text-5xl">
             අපට දන්වන්න
           </h2>
           <div className="mx-auto mt-7 h-px w-16 bg-[#c9a96e]" />
@@ -97,7 +97,7 @@ export default function RSVPSection() {
           }}
           className="mt-9 text-center"
         >
-          <p className="text-base leading-loose text-[#5a222a] md:text-lg">
+          <p className="text-base leading-loose text-[#3F0306] md:text-lg">
             මේ සොඳුරු සන්ධ්‍යාව
             <br />
             ඔබ සමඟින් සමරන්නට අපි බලාපොරොත්තු වෙමු.
@@ -133,7 +133,7 @@ export default function RSVPSection() {
             <div>
               <label
                 htmlFor="guest-name"
-                className="text-[10px] tracking-[0.3em] text-[#8e4a55]"
+                className="text-[10px] tracking-[0.3em] text-[#3F0306]"
               >
                 ඔබගේ නම
               </label>
@@ -143,11 +143,11 @@ export default function RSVPSection() {
                 type="text"
                 required
                 placeholder="නම ඇතුළත් කරන්න"
-                className="mt-3 w-full border-b border-[#c9a96e]/50 bg-transparent px-1 py-3 text-sm text-[#3b1118] outline-none placeholder:text-[#74665f]/60 focus:border-[#8e4a55]"
+                className="mt-3 w-full border-b border-[#c9a96e]/50 bg-transparent px-1 py-3 text-sm text-[#3F0306] outline-none placeholder:text-[#74665f]/60 focus:border-[#3F0306]"
               />
             </div>
             <div className="mt-8">
-              <p className="text-[10px] tracking-[0.3em] text-[#8e4a55]">
+              <p className="text-[10px] tracking-[0.3em] text-[#3F0306]">
                 පැමිණීම
               </p>
               <div className="mt-4 grid gap-3 md:grid-cols-2">
@@ -157,9 +157,9 @@ export default function RSVPSection() {
                     name="attendance"
                     value="attending"
                     required
-                    className="accent-[#3b1118]"
+                    className="accent-[#3F0306]"
                   />
-                  <span className="text-sm text-[#5a222a]">පැමිණෙමි ♥</span>
+                  <span className="text-sm text-[#3F0306]">පැමිණෙමි ♥</span>
                 </label>
                 <label className="flex cursor-pointer items-center gap-3 border border-[#c9a96e]/30 px-4 py-4 transition hover:border-[#c9a96e]">
                   <input
@@ -167,16 +167,16 @@ export default function RSVPSection() {
                     name="attendance"
                     value="not-attending"
                     required
-                    className="accent-[#3b1118]"
+                    className="accent-[#3F0306]"
                   />
-                  <span className="text-sm text-[#5a222a]">පැමිණීමට නොහැක</span>
+                  <span className="text-sm text-[#3F0306]">පැමිණීමට නොහැක</span>
                 </label>
               </div>
             </div>
             <div className="mt-8">
               <label
                 htmlFor="guest-count"
-                className="text-[10px] tracking-[0.3em] text-[#8e4a55]"
+                className="text-[10px] tracking-[0.3em] text-[#3F0306]"
               >
                 පැමිණෙන පිරිස
               </label>
@@ -184,7 +184,7 @@ export default function RSVPSection() {
                 id="guest-count"
                 name="guestCount"
                 defaultValue="1"
-                className="mt-3 w-full border-b border-[#c9a96e]/50 bg-transparent px-1 py-3 text-sm text-[#3b1118] outline-none focus:border-[#8e4a55]"
+                className="mt-3 w-full border-b border-[#c9a96e]/50 bg-transparent px-1 py-3 text-sm text-[#3F0306] outline-none focus:border-[#3F0306]"
               >
                 <option value="1">1 දෙනෙක්</option>
                 <option value="2">2 දෙනෙක්</option>
@@ -197,7 +197,7 @@ export default function RSVPSection() {
             <div className="mt-8">
               <label
                 htmlFor="message"
-                className="text-[10px] tracking-[0.3em] text-[#8e4a55]"
+                className="text-[10px] tracking-[0.3em] text-[#3F0306]"
               >
                 පණිවිඩයක්
               </label>
@@ -206,13 +206,13 @@ export default function RSVPSection() {
                 name="message"
                 rows={3}
                 placeholder="ඔබට අප වෙත කියන්නට ඇති දෙයක්..."
-                className="mt-3 w-full resize-none border-b border-[#c9a96e]/50 bg-transparent px-1 py-3 text-sm text-[#3b1118] outline-none placeholder:text-[#74665f]/60 focus:border-[#8e4a55]"
+                className="mt-3 w-full resize-none border-b border-[#c9a96e]/50 bg-transparent px-1 py-3 text-sm text-[#3F0306] outline-none placeholder:text-[#74665f]/60 focus:border-[#3F0306]"
               />
             </div>
             <div className="mt-10 text-center">
               <button
                 type="submit"
-                className="border border-[#3b1118] bg-[#3b1118] px-10 py-3 text-[10px] tracking-[0.3em] text-[#f5f1e8] transition hover:bg-[#5a222a]"
+                className="border border-[#3F0306] bg-[#3F0306] px-10 py-3 text-[10px] tracking-[0.3em] text-[#f5f1e8] transition hover:bg-[#3F0306]"
               >
                 RSVP තහවුරු කරන්න
               </button>
@@ -238,9 +238,9 @@ export default function RSVPSection() {
             <div className="absolute bottom-2 left-2 h-5 w-5 border-b border-l border-[#c9a96e]" />
             <div className="absolute bottom-2 right-2 h-5 w-5 border-b border-r border-[#c9a96e]" />
             <div className="mx-auto flex h-14 w-14 items-center justify-center rounded-full border border-[#c9a96e]">
-              <span className="text-xl text-[#8e4a55]">♥</span>
+              <span className="text-xl text-[#3F0306]">♥</span>
             </div>
-            <p className="mt-7 text-xl font-light text-[#3b1118] md:text-2xl">
+            <p className="mt-7 text-xl font-light text-[#3F0306] md:text-2xl">
               ස්තූතියි!
             </p>
             <p className="mt-4 text-sm leading-loose text-[#74665f]">
@@ -250,7 +250,7 @@ export default function RSVPSection() {
               <br />
               හමුවීමට බලාපොරොත්තු වෙමු.
             </p>
-            <p className="mt-7 text-xs tracking-[0.25em] text-[#8e4a55]">
+            <p className="mt-7 text-xs tracking-[0.25em] text-[#3F0306]">
                 නිපුන & නිපුනි
             </p>
           </motion.div>
@@ -263,7 +263,7 @@ export default function RSVPSection() {
             duration: isMobile ? 0.8 : 1,
             delay: 0.9,
           }}
-          className="mt-10 text-center text-xs leading-relaxed text-[#8e4a55]"
+          className="mt-10 text-center text-xs leading-relaxed text-[#3F0306]"
         >
           ඔබගේ පැමිණීම අපේ සතුට තවත් වැඩි කරයි.
         </motion.p>
@@ -288,7 +288,7 @@ export default function RSVPSection() {
             repeat: Infinity,
             ease: "easeInOut",
           }}
-          className="text-[#8e4a55]"
+          className="text-[#3F0306]"
         >
           ↓
         </motion.span>
